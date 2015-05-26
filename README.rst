@@ -1,11 +1,10 @@
-============
-Flask Disqus
+Flask-Disqus
 ============
 
-This is small and simple integration of `disqus`_ into `flask`_.
+This is a small and simple integration of `Disqus comment system`_ into `Flask`_.
 
-.. _flask: http://flask.pocoo.org
-.. _disqus: http://disqus.com
+.. _Flask: http://flask.pocoo.org
+.. _Disqus comment system: http://disqus.com
 
 Installation
 ------------
@@ -15,6 +14,7 @@ Installation
 Usage
 -----
 .. code-block:: python
+
     from flask_disqus import Disqus
     disq = Disqus(app)
 
@@ -22,6 +22,7 @@ Usage
 in html template:
 
 .. code-block:: html
+
     {% autoescape false %}
     {{ disqus_dev() }}
     {{ disqus_show_comments("comments_name") }}
