@@ -2,9 +2,11 @@ Flask-Disqus
 ============
 
 This is a small and simple integration of `Disqus comment system`_ into `Flask`_.
+UPD: uploaded to PyPI `link`_
 
 .. _Flask: http://flask.pocoo.org
 .. _Disqus comment system: http://disqus.com
+.. _link: https://pypi.python.org/pypi?name=Flask-Disqus&version=0.0.1&:action=display
 
 Installation
 ------------
